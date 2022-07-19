@@ -1,0 +1,54 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.header-background {
+    border-radius: 30px;
+    width: 1000px;
+    height: 390px;
+    background-color: royalblue;
+    margin: 50px 140px 130px 140px
+}
+
+.text-header {
+    padding-left: 106px;
+    margin-top: -40px;
+}
+
+.h1-manual {
+    margin-top: 5pxpx;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.para-part {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.watch-button {
+    margin-top: 5px;
+    width: 160px;
+    height: 56px;
+}
+
+.watch-background {
+    padding: 16px 25px;
+    background-color: darkorange;
+    border-radius: 20px;
+}
+
+img {
+    padding-top: 33px;
+    width: 581px;
+    height: 612.75px;
+}
