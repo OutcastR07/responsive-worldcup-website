@@ -15,7 +15,7 @@ header {
     border-radius: 30px;
     width: 1100px;
     height: 500px;
-    background-color: royalblue;
+    background-color: #161616;
     margin: 30px 140px 130px 80px;
     padding: 0 0 20px;
 }
@@ -49,7 +49,7 @@ header {
 
 .watch-background {
     padding: 16px 25px;
-    background-color: darkorange;
+    background-color: #DD0000;
     border-radius: 20px;
 }
 
@@ -59,7 +59,97 @@ header {
 }
 
 img {
-    /* padding-top: 61px; */
     width: 470px;
     height: 500px;
+}
+
+/* main body */
+
+.diff-bg {
+    background-color: #161616;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.next-games {
+    width: 190px;
+    height: 60px;
+    background-color: white;
+    color: #161616;
+    margin: 30px 30px -30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groups {
+    width: 190px;
+    height: 60px;
+    background-color: white;
+    color: #161616;
+    margin: 60px 30px -30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    width: 190px;
+    height: 60px;
+    background-color: white;
+    color: #161616;
+    margin: 60px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* transfer secton styles */
+
+.img-used {
+    width: 260px;
+    height: 150px;
+}
+
+.transfer-text {
+    border: 1px solid #161616;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transfer-para {
+    color: #161616;
+}
+
+.final-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-clock {
+    color: #161616
+}
+
+.comments {
+    color: gray;
+}
+
+.fa-comment-dots {
+    color: #161616;
+}
+
+.time {
+    color: gray;
 }
