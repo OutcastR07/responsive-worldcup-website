@@ -11,6 +11,11 @@ header {
     align-items: center;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 .header-background {
     border-radius: 30px;
     width: 1100px;
@@ -67,10 +72,13 @@ img {
 
 .diff-bg {
     background-color: #161616;
-    width: 250px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
-    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .next-games {
@@ -102,19 +110,41 @@ img {
     height: 60px;
     background-color: white;
     color: #161616;
-    margin: 60px 30px;
+    margin: 60px 30px 30px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /* transfer secton styles */
 
+.whole-section {
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-column-gap: 0px;
+}
+
+.news-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    margin-bottom: 120px;
+    justify-items: end;
+}
+
+.news-area {
+    margin: 0px;
+    height: 335px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 95%;
+}
+
 .img-used {
-    width: 260px;
-    height: 150px;
+    width: 100%;
+    height: auto;
 }
 
 .transfer-text {
@@ -126,16 +156,21 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .transfer-para {
     color: #161616;
+    font-weight: 700;
+    margin-left: 10px;
 }
 
 .final-part {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
+    margin-left: 10px;
 }
 
 .fa-clock {
@@ -144,6 +179,7 @@ img {
 
 .comments {
     color: gray;
+    margin-left: 5px;
 }
 
 .fa-comment-dots {
@@ -152,4 +188,35 @@ img {
 
 .time {
     color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* footer part */
+
+footer {
+    background-color: #161616;
+    width: 100%;
+    height: 444px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hr-style {
+    border: 1px solid gray;
+    width: 1100px;
+}
+
+.footer-words {
+    margin-top: 20px;
+}
+
+.footword {
+    margin: 0px 15px;
+}
+
+.logo {
+    margin: 30px;
 }
