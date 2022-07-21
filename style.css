@@ -4,6 +4,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
@@ -14,6 +16,7 @@ header {
 main {
     display: flex;
     justify-content: center;
+    margin-left: 0px;
 }
 
 .header-background {
@@ -21,7 +24,7 @@ main {
     width: 1100px;
     height: 500px;
     background-color: #161616;
-    margin: 30px 140px 130px 80px;
+    margin: 30px 140px 130px 6vw;
     padding: 0 0 20px;
 }
 
@@ -46,16 +49,14 @@ main {
     margin-top: 5px;
     width: 160px;
     height: 56px;
+    background-color: #DD0000;
+    border-radius: 20px;
+    color: white;
 }
+
 
 .fa-play {
     padding-left: 5px;
-}
-
-.watch-background {
-    padding: 16px 25px;
-    background-color: #DD0000;
-    border-radius: 20px;
 }
 
 .img-part {
@@ -93,6 +94,11 @@ img {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: #161616;
+}
+
 .groups {
     width: 190px;
     height: 60px;
@@ -116,6 +122,13 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.btn:hover {
+    background-color: #DD0000;
+    transition: 0.7s;
+}
+
+
 
 /* transfer secton styles */
 
@@ -192,6 +205,11 @@ img {
     margin-right: 5px;
 }
 
+.next-games .groups .blog:hover {
+    background-color: #DD0000;
+    transition: 0.7s;
+}
+
 /* footer part */
 
 footer {
@@ -219,4 +237,103 @@ footer {
 
 .logo {
     margin: 30px;
+}
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+    .header-background {
+        width: 393px;
+        margin-left: 0px;
+        border-radius: 0;
+        margin-right: 0px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+    .whole-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+        place-items: center;
+    }
+
+    .diff-bg {
+        margin-left: 18px;
+        margin-bottom: 22px;
+
+    }
+
+    .news-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -20px;
+    }
+
+    .news-area {
+        height: 500px;
+    }
+
+    footer {
+        width: 393px;
+        height: 460px;
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-bottom: -20px;
+        margin-left: 0px;
+    }
+
+    .hr-style {
+        border: 1px solid gray;
+        width: 200px;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .text-header {
+        height: 300px;
+        width: 200px;
+    }
+
+    .h1-manual {
+        font-size: 30px;
+        margin-left: -50px;
+    }
+
+    .para-part {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .header-background {
+        width: 820px;
+    }
+
+    .news-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: -20px;
+    }
+
+    .diff-bg {
+        margin-left: 18px;
+        margin-bottom: 22px;
+        margin-right: 20px;
+
+    }
+
+    footer {
+        width: 1100px;
+        height: 460px;
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-bottom: -20px;
+        margin-left: 0px;
+    }
 }
